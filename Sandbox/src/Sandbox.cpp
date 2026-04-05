@@ -12,7 +12,7 @@ public:
 };
 
 HZL::Application* HZL::CreateApplication() {
-return new Sandbox;
+	return new Sandbox;
 }
 
 
