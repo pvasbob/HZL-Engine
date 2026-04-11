@@ -4,6 +4,9 @@
     <Filter Include="HZL">
       <UniqueIdentifier>{13F1870B-7FFA-877C-0876-9E7C747E937C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="HZL\Events">
+      <UniqueIdentifier>{9749673B-8301-A988-EC08-82E4D8DF4379}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\HZL.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\HZL\EntryPoint.h">
       <Filter>HZL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HZL\Events\ApplicationEvent.h">
+      <Filter>HZL\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HZL\Events\Event.h">
+      <Filter>HZL\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HZL\Events\KeyEvent.h">
+      <Filter>HZL\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HZL\Events\MouseEvent.h">
+      <Filter>HZL\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\HZL\Log.h">
       <Filter>HZL</Filter>

@@ -14,7 +14,6 @@ int main(int argc, char** argv) {
 	int b = 2;
 	HZL_INFO("Hello! Var={0}, Exp={1}", a, b );
 
-	printf("HZL Engine.....");
 	//HZL::Application* sandbox = CreateApplication();
 	auto app = HZL::CreateApplication();
 	app->Run();
