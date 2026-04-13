@@ -2,9 +2,6 @@
 
 #include  "HZL/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace HZL {
 
 	enum class EventType {

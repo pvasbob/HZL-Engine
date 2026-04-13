@@ -1,7 +1,5 @@
 #pragma once
 
-
-// Content hard copied from HZLpch.h, has to be on the first 1st line.
 #include <iostream>
 #include <memory>
 #include <utility>
@@ -19,25 +17,6 @@
 #ifdef HZL_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif 
-// Content hard copied from HZLpch.h  --End
 
 
-
-
-
-
-
-
-
-
-
-// For use by HZL applications
-
-#include "HZL/Application.h"
-#include "HZL/Log.h"
-
-
-// ---Entry Point---
-#include "HZL/EntryPoint.h"
-// -----------------
 

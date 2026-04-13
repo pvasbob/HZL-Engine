@@ -29,6 +29,9 @@ project "HZL"			-- Generate HZL.vcxproj
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "HZLpch.h"
+	pchsource "HZL/src/HZLpch.cpp"
+
 	files {
 		"%{prj.name}/src/**.h",
 		"%{prj.name}/src/**.cpp"
@@ -82,6 +85,9 @@ project "Sandbox"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	-- recommend : Client side dont use pch file at all. Only Engine side use pch.
+	--pchheader "HZLpch.h"
+	--pchsource "HZL/src/HZLpch.cpp"
 
 	files {
 		"%{prj.name}/src/**.h",

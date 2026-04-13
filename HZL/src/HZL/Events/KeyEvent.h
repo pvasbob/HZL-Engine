@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace HZL {
 
 	class HZL_API KeyEvent : public Event {

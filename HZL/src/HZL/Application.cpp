@@ -1,3 +1,5 @@
+#include "HZLpch.h"
+
 #include "Application.h"
 
 #include "HZL/Events/ApplicationEvent.h"
@@ -16,7 +18,7 @@ namespace HZL {
 
 		WindowResizeEvent e(1200, 720);
 
-		HZL_WARN(e.ToString());
+		HZL_TRACE(e.ToString());
 		
 		while (true)
 		{
