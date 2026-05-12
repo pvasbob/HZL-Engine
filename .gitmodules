@@ -1,3 +1,9 @@
 [submodule "HZL/vendor/spdlog"]
 	path = HZL/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "HZL/vendor/HZL/vendor/GLFW"]
+	path = HZL/vendor/HZL/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
+[submodule "HZL/vendor/GLFW"]
+	path = HZL/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
